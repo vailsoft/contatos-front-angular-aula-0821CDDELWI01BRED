@@ -1,7 +1,13 @@
 ✔ Criar um componente Login @done(21-10-14 09:44)
 ✔ Criar um componente Cadastrar @done(21-10-14 09:45)
 ✔ Criar um componente home para conter menu, lista de contatos e create contato @done(21-10-14 10:14)
-☐ Fazer a navegação entre os componentes
+✔ Fazer a navegação entre os componentes @done(21-10-14 10:55)
+☐ Criar objeto com os dados a serem enviados para o endpoint
+☐ Criar um serviço Auth
+☐ Dentro do serviço Auth criar um método que vai enviar dados para o cadastro
+☐ Enviar os dados do cadastro ao endpoint
+☐ Tratar o retorno
+☐ Mostrar Mensagem de erro quando Senha e confirmação não forem iguais
 
 Archive:
   ✔ Crie um emissor de evento e faça com que ele emita um evento na função mostrarModalClick @done(21-10-14 09:40) @project(Criação e Exibição do componente que adiciona/cria um novo contato.Fazendo com que ele seja exibido quando o menu seja clicado)
