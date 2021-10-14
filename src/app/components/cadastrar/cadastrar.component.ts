@@ -12,4 +12,14 @@ export class CadastrarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  nome = '';
+  email = '';
+  senha = '';
+  conf = '';
+
+  cadastrar(){
+    console.log(this.nome, this.email, this.senha, this.conf);
+  }
+
+
 }
