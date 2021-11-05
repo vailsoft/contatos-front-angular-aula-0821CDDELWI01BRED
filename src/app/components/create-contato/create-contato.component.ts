@@ -1,4 +1,4 @@
-import { Component, EventEmitter, OnInit, Output, ViewChild } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { Contato } from 'src/app/models/Contato';
 import { ContatoService } from 'src/app/services/contato.service';
 

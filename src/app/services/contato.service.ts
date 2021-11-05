@@ -1,6 +1,6 @@
+import { HttpClient } from "@angular/common/http";
 import { EventEmitter, Injectable } from '@angular/core';
 import { Contato } from '../models/Contato';
-
 @Injectable({
   providedIn: 'root'
 })
@@ -10,7 +10,7 @@ export class ContatoService {
 
   static onContatosMudaram:EventEmitter<Contato[]> = new EventEmitter();
 
-  constructor() { }
+  constructor(private http:HttpClient) { }
   getContatos():Contato[] {
     
     // *Tentar* carregar os dados da localStorage
